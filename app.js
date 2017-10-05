@@ -1,15 +1,13 @@
 
 var restify = require('restify');
 var builder = require('botbuilder');
+var environmentVariables = require('./environmentVariables')
 
 // Setup Restify Server
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, () => {
    console.log('%s listening to %s', server.name, server.url); 
 });
-
-//appId : e5c08f46-7393-42a6-9c74-a6894352ff1d
-//appPassword: 1n9OfYmOspFexqnrh3d3FLt
 
 
 // Create chat connector for communicating with the Bot Framework Service

@@ -1,0 +1,6 @@
+# Folder containing any files to leave out of repo, e.g. test result HTML files #
+#################################################################################
+
+node_modules/
+environmentVariables.js
+
