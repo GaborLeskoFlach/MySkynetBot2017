@@ -1,0 +1,15 @@
+{
+  "name": "xerobot",
+  "version": "1.0.0",
+  "description": "Bot for testing basics",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Gabor Lesko-Flach",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.10.2",
+    "restify": "^6.0.1"
+  }
+}
